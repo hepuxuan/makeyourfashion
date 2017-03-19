@@ -1,5 +1,5 @@
 {
-  "presets": ["es2015", "es2016", "react", "node5"],
+  "presets": ["es2015", "es2016", "react"],
   "plugins": [
     "babel-plugin-syntax-trailing-function-commas",
     "babel-plugin-transform-class-properties",

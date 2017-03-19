@@ -7,28 +7,27 @@ const itemType = new GraphQLObjectType({
   fields: {
     id: {
       type: new GraphQLNonNull(GraphQLInt),
-      description: 'The id of the item.',
+      description: 'The id of the item.'
     },
     name: {
       type: GraphQLString,
-      description: 'The name of the item.',
+      description: 'The name of the item.'
     },
     description: {
       type: GraphQLString,
-      description: 'The description of the item.',
+      description: 'The description of the item.'
     },
     img_url: {
       type: GraphQLString,
-      description: 'The img_url of the item.',
-    }
-    ,
+      description: 'The img_url of the item.'
+    },
     category: {
       type: GraphQLString,
-      description: 'The category of the item.',
+      description: 'The category of the item.'
     },
     price: {
       type: GraphQLInt,
-      description: 'The price of the item.',
+      description: 'The price of the item.'
     }
   }
 })
